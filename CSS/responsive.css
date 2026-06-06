@@ -1,0 +1,13 @@
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}

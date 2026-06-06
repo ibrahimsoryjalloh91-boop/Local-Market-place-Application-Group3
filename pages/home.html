@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Home</title>
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/home.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+  <h2>Local Marketplace</h2>
+
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search products..."
+  >
+
+</header>
+
+<main class="container">
+
+  <section class="categories">
+
+    <button class="category-btn" data-category="All">
+      All
+    </button>
+
+    <button class="category-btn" data-category="Agriculture">
+      Agriculture
+    </button>
+
+    <button class="category-btn" data-category="Electronics">
+      Electronics
+    </button>
+
+    <button class="category-btn" data-category="Fashion">
+      Fashion
+    </button>
+
+  </section>
+
+  <section>
+
+    <h3>Featured Products</h3>
+
+    <div id="productsContainer"></div>
+
+  </section>
+
+</main>
+
+<script src="../js/products.js"></script>
+
+</body>
+</html>
