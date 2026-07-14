@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@marketplace.sl",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Vendor",
+      "email": "vendor@marketplace.sl",
+      "password": "vendor123",
+      "role": "vendor"
+    },
+    {
+      "id": 3,
+      "name": "Buyer",
+      "email": "buyer@marketplace.sl",
+      "password": "buyer123",
+      "role": "buyer"
+    }
+  ],
+  "products": [
+    {
+      "id": 1784005185267,
+      "title": "rice 50kg",
+      "description": "good quality local rice",
+      "price": "250000",
+      "category": "Food",
+      "vendorEmail": "vendor@marketplace.sl"
+    },
+    {
+      "id": 1784010110155,
+      "title": "Samsung Phone S23",
+      "description": "brand new, 256GB, Black color",
+      "price": "2500",
+      "category": "Electronics",
+      "vendorEmail": "vendor@marketplace.sl"
+    },
+    {
+  "users": [],
+  "products": [
+    {
+      "id": 1729876543210,
+      "title": "Rice 50kg",
+      "description": "Imported rice bag",
+      "price": "250000",
+      "category": "Groceries",
+      "vendorEmail": "test@test.com"
+    }
+  ]
+}
+    
+  ]
+}
+
