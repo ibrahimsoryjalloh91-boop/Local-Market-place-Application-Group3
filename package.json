@@ -1,13 +1,13 @@
 {
-  "name": "server",
+  "name": "local-marketplace-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A community-based local marketplace for buyers, sellers, and artisans",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "start": "node server.js"
   },
-  "keywords": [],
+  "keywords": ["marketplace", "community", "local"],
   "author": "",
   "license": "ISC",
   "dependencies": {

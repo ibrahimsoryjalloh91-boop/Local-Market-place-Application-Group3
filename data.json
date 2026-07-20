@@ -5,54 +5,74 @@
       "name": "Admin",
       "email": "admin@marketplace.sl",
       "password": "admin123",
-      "role": "admin"
+      "role": "admin",
+      "location": "Town Hall",
+      "joinedAt": "2026-01-01T00:00:00.000Z"
     },
     {
       "id": 2,
-      "name": "Vendor",
+      "name": "Mariam Sannoh",
       "email": "vendor@marketplace.sl",
       "password": "vendor123",
-      "role": "vendor"
+      "role": "seller",
+      "location": "Kambia",
+      "joinedAt": "2026-02-15T00:00:00.000Z"
     },
     {
       "id": 3,
-      "name": "Buyer",
+      "name": "Tamba Koroma",
       "email": "buyer@marketplace.sl",
       "password": "buyer123",
-      "role": "buyer"
+      "role": "buyer",
+      "location": "Bo",
+      "joinedAt": "2026-03-20T00:00:00.000Z"
+    },
+    {
+      "id": 1784562600324,
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "123456",
+      "role": "artisan",
+      "location": "Freetown",
+      "joinedAt": "2026-07-20T15:50:00.324Z"
     }
   ],
   "products": [
     {
       "id": 1784005185267,
-      "title": "rice 50kg",
-      "description": "good quality local rice",
+      "title": "Fresh local rice 50kg",
+      "description": "Good quality rice from nearby farms",
       "price": "250000",
       "category": "Food",
-      "vendorEmail": "vendor@marketplace.sl"
+      "location": "Kambia",
+      "type": "product",
+      "vendorEmail": "vendor@marketplace.sl",
+      "vendorName": "Mariam Sannoh",
+      "createdAt": "2026-06-10T00:00:00.000Z"
     },
     {
       "id": 1784010110155,
-      "title": "Samsung Phone S23",
-      "description": "brand new, 256GB, Black color",
-      "price": "2500",
-      "category": "Electronics",
-      "vendorEmail": "vendor@marketplace.sl"
+      "title": "Phone repair service",
+      "description": "Fast screen replacement and handset repair",
+      "price": "150000",
+      "category": "Services",
+      "location": "Bo",
+      "type": "service",
+      "vendorEmail": "vendor@marketplace.sl",
+      "vendorName": "Mariam Sannoh",
+      "createdAt": "2026-06-12T00:00:00.000Z"
     },
     {
-  "users": [],
-  "products": [
-    {
-      "id": 1729876543210,
-      "title": "Rice 50kg",
-      "description": "Imported rice bag",
-      "price": "250000",
-      "category": "Groceries",
-      "vendorEmail": "test@test.com"
+      "id": 1784562600371,
+      "title": "Handmade basket",
+      "description": "Crafted locally",
+      "price": "50000",
+      "category": "Crafts",
+      "location": "Freetown",
+      "type": "product",
+      "vendorEmail": "test@example.com",
+      "vendorName": "Test User",
+      "createdAt": "2026-07-20T15:50:00.371Z"
     }
   ]
 }
-    
-  ]
-}
-
