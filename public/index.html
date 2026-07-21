@@ -191,6 +191,12 @@
         }
       });
 
+        let searchTimeout;
+      document.getElementById('searchInput').addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(loadListings, 300);
+      });
+
       document.getElementById('searchInput').addEventListener('input', loadListings);
       document.getElementById('filterCategory').addEventListener('change', loadListings);
 
